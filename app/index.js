@@ -1,18 +1,17 @@
 import React from 'react';
-import EStyleSheet from 'react-native-extended-stylesheet';
+import { StyleSheet, Text, View } from 'react-native';
 
-import Navigator from './config/routes';
-
-EStyleSheet.build({
-  $primaryBlue: '#4F6D7A',
-  $primaryOrange: '#D57A66',
-  $primaryGreen: '#00BD9D',
-  $primaryPurple: '#9E768F',
-  $white: '#FFFFFF',
-  $lightGray: '#F0F0F0',
-  $border: '#979797',
-  $inputText: '#797979',
-  $darkText: '#343434',
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 });
 
-export default () => <Navigator />;
+export default () => (
+  <View style={styles.container}>
+    <Text>Meu primeiro App Mobile.</Text>
+  </View>
+);
