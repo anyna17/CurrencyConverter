@@ -1,0 +1,26 @@
+# antes de trabalhar
+
+cd CurrencyConverter
+git pull
+yarn install
+yarn start
+
+
+# se vai baixar pela 1a vez
+
+git clone https://github.com/anyna17/CurrencyConverter.git
+
+
+# se estiver no lab no ifrn
+
+git config --global user.name "Ana Tereza"
+git config --global user.email "anyna@hotmail.com.br"
+
+
+
+# quanto terminar uma tarefa
+
+git add *
+git commit -m "Texto explicando o que foi feito"
+git push
+
